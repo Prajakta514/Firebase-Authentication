@@ -1,0 +1,80 @@
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #dcdada; /* Dark background */
+    color: #0c0b0b; /* White text */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .auth-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .google-button,
+  .email-button {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 8px 16px; /* Reduced padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px; /* Adjusted margin */
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-button:hover,
+  .email-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .auth-input input {
+    width: 100%;
+    padding: 12px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Dark gray input background */
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .auth-input input:focus {
+    outline: none;
+    background-color: #555; /* Slightly lighter on focus */
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+  }
+  
